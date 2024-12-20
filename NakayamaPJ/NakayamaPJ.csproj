@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Imagenes\fondo.jpg" />
+    <None Remove="Imagenes\fondo_try.jpg" />
+    <None Remove="Imagenes\fondo_try2.jpg" />
+    <None Remove="Imagenes\icon-pass.png" />
+    <None Remove="Imagenes\icon-user.png" />
+    <None Remove="Imagenes\image1.jpg" />
+    <None Remove="Imagenes\logo.png" />
+    <None Remove="Imagenes\Lougo.jpg" />
+    <None Remove="Imagenes\nakayama-icon.png" />
+    <None Remove="Imagenes\nakayama.jpg" />
+    <None Remove="Imagenes\profile.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.6.0" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagenes\fondo.jpg" />
+    <Resource Include="Imagenes\fondo_try.jpg" />
+    <Resource Include="Imagenes\fondo_try2.jpg" />
+    <Resource Include="Imagenes\icon-pass.png" />
+    <Resource Include="Imagenes\icon-user.png" />
+    <Resource Include="Imagenes\image1.jpg" />
+    <Resource Include="Imagenes\logo.png" />
+    <Resource Include="Imagenes\Lougo.jpg" />
+    <Resource Include="Imagenes\nakayama-icon.png" />
+    <Resource Include="Imagenes\nakayama.jpg" />
+    <Resource Include="Imagenes\profile.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModel\Produccion\" />
+  </ItemGroup>
+
+</Project>
